@@ -7,7 +7,7 @@ RUN npm ci
 
 COPY . .
 
-RUN npx tsc
+RUN npx tsc && cp -r src/data dist/data
 
 EXPOSE 4000
 CMD ["npm", "start"]
