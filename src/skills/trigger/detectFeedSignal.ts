@@ -18,5 +18,11 @@ export function detectFeedSignal(query: string, feed: Feed): FeedSignal {
   if (TIRED_KEYWORDS.some(k => text.includes(k))) return 'tired';
   if (SOCIAL_KEYWORDS.some(k => text.includes(k))) return 'social';
   if (RESTLESS_KEYWORDS.some(k => text.includes(k))) return 'restless';
+
+  // Fall back to stored mood if keywords don't match
+  if (feed.mood === 'restless' || feed.mood === 'tired' || feed.mood === 'social') {
+    return feed.mood;
+  }
+
   return 'neutral';
 }

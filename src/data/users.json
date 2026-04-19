@@ -2,48 +2,118 @@
   {
     "userId": "user_001",
     "identity": {
-      "name": "Sijie",
-      "city": "上海",
-      "age": 28
+      "name": "Alex",
+      "nationality": "American",
+      "city": "Shanghai",
+      "age": 30,
+      "type": "digital_nomad"
     },
     "lifestyle": {
       "vibes": [
-        "jazz",
-        "精酿",
-        "独立咖啡",
-        "暗光",
-        "文艺"
+        "indie coffee",
+        "craft beer",
+        "low-key",
+        "local vibe",
+        "no tourist traps"
       ],
       "avoid": [
-        "嘈杂",
-        "连锁店",
-        "人多",
-        "商业气息"
+        "chains",
+        "overly commercial",
+        "loud crowds",
+        "WeChat-only menus"
       ],
       "favorite_areas": [
-        "静安",
-        "徐汇",
-        "长宁"
+        "Jing'an",
+        "Xuhui",
+        "Yangpu"
       ]
     },
     "consumption": {
-      "range_min": 200,
-      "range_max": 400,
+      "range_min": 80,
+      "range_max": 300,
       "currency": "CNY",
       "sensitive": false
     },
     "social": {
       "type": "ambivert",
-      "usual_group_size": 2,
+      "usual_group_size": 1,
       "solo_comfort": true
     },
     "schedule": {
-      "work_end": "19:30",
+      "work_end": "18:00",
       "free_days": [
         "Sat",
         "Sun"
       ],
       "night_owl": true
+    },
+    "feed": {
+      "recent_signals": ["好无聊", "想出去"],
+      "last_visit": "",
+      "mood": "restless",
+      "last_activity_time": null,
+      "last_push_time": null
+    },
+    "aspirations": {
+      "goals": [
+        "find hidden local spots",
+        "avoid tourist traps",
+        "experience real Shanghai"
+      ],
+      "avoid_routine": true
+    }
+  },
+  {
+    "userId": "user_002",
+    "identity": {
+      "name": "Emma",
+      "nationality": "German",
+      "city": "Shanghai",
+      "age": 24,
+      "type": "backpacker"
+    },
+    "lifestyle": {
+      "vibes": [
+        "authentic",
+        "local",
+        "cultural",
+        "adventurous",
+        "street food"
+      ],
+      "avoid": [
+        "expensive",
+        "tourist-oriented",
+        "international chains"
+      ],
+      "favorite_areas": [
+        "Huangpu",
+        "Hongkou",
+        "Putuo"
+      ]
+    },
+    "consumption": {
+      "range_min": 30,
+      "range_max": 120,
+      "currency": "CNY",
+      "sensitive": true
+    },
+    "social": {
+      "type": "extrovert",
+      "usual_group_size": 3,
+      "solo_comfort": true
+    },
+    "schedule": {
+      "work_end": "flexible",
+      "free_days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "night_owl": false
     },
     "feed": {
       "recent_signals": [],
@@ -54,50 +124,55 @@
     },
     "aspirations": {
       "goals": [
-        "探索新地方",
-        "放松解压"
+        "meet locals",
+        "experience real Chinese culture",
+        "find hidden gems"
       ],
       "avoid_routine": true
     }
   },
   {
-    "userId": "user_002",
+    "userId": "user_003",
     "identity": {
-      "name": "Lin",
-      "city": "上海",
-      "age": 32
+      "name": "David",
+      "nationality": "British",
+      "city": "Shanghai",
+      "age": 38,
+      "type": "business_traveler"
     },
     "lifestyle": {
       "vibes": [
-        "精酿",
-        "清吧",
-        "户外",
-        "低调"
+        "sophisticated",
+        "quiet",
+        "jazz",
+        "cocktails",
+        "premium"
       ],
       "avoid": [
-        "嘈杂",
-        "人群",
-        "强行消费"
+        "noisy",
+        "crowded",
+        "casual",
+        "unpredictable wait times"
       ],
       "favorite_areas": [
-        "虹桥",
-        "静安",
-        "杨浦"
+        "Jing'an",
+        "Huangpu",
+        "Xuhui"
       ]
     },
     "consumption": {
-      "range_min": 150,
-      "range_max": 300,
+      "range_min": 300,
+      "range_max": 800,
       "currency": "CNY",
-      "sensitive": true
+      "sensitive": false
     },
     "social": {
       "type": "introvert",
-      "usual_group_size": 1,
+      "usual_group_size": 2,
       "solo_comfort": true
     },
     "schedule": {
-      "work_end": "18:00",
+      "work_end": "20:00",
       "free_days": [
         "Sat",
         "Sun"
@@ -105,83 +180,19 @@
       "night_owl": false
     },
     "feed": {
-      "recent_signals": [
-        "下班了",
-        "想喝一杯"
-      ],
-      "last_visit": "精酿酒吧",
+      "recent_signals": [],
+      "last_visit": "",
       "mood": "tired",
       "last_activity_time": null,
       "last_push_time": null
     },
     "aspirations": {
       "goals": [
-        "安静放空",
-        "独处充电"
+        "decompress after meetings",
+        "impress clients",
+        "find quiet spots"
       ],
       "avoid_routine": false
-    }
-  },
-  {
-    "userId": "user_003",
-    "identity": {
-      "name": "Yumi",
-      "city": "上海",
-      "age": 25
-    },
-    "lifestyle": {
-      "vibes": [
-        "独立咖啡",
-        "艺术",
-        "小众",
-        "探索"
-      ],
-      "avoid": [
-        "星巴克",
-        "连锁",
-        "没有特色"
-      ],
-      "favorite_areas": [
-        "徐汇",
-        "黄浦",
-        "普陀"
-      ]
-    },
-    "consumption": {
-      "range_min": 80,
-      "range_max": 200,
-      "currency": "CNY",
-      "sensitive": true
-    },
-    "social": {
-      "type": "extrovert",
-      "usual_group_size": 3,
-      "solo_comfort": false
-    },
-    "schedule": {
-      "work_end": "18:30",
-      "free_days": [
-        "Sat",
-        "Sun"
-      ],
-      "night_owl": false
-    },
-    "feed": {
-      "recent_signals": [
-        "周末去哪玩",
-        "想找个好看的咖啡馆拍照"
-      ],
-      "last_visit": "网红咖啡馆",
-      "mood": "excited",
-      "last_activity_time": null,
-      "last_push_time": null
-    },
-    "aspirations": {
-      "goals": [
-        "发现新地方",
-        "社交打卡"
-      ],
-      "avoid_routine": true
     }
   }
 ]
