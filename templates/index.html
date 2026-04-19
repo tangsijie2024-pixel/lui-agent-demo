@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>城市向导 - 上海本地生活助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=2">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部导航 -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>城市向导</span>
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span id="current-location">上海</span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- 左侧对话区 -->
+            <div class="chat-section">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot">
+                        <div class="message-avatar">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <div class="message-content">
+                            <p>你好！我是你的上海本地生活助手。告诉我你在哪里，想找什么类型的地点吧！比如"我在乌节路，附近有什么好酒吧"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-section">
+                    <div class="preset-tags">
+                        <span class="tag" onclick="sendMessage('我在静安寺，附近有什么好餐厅')">静安寺餐厅</span>
+                        <span class="tag" onclick="sendMessage('我在徐汇区，想找咖啡馆')">徐汇咖啡馆</span>
+                        <span class="tag" onclick="sendMessage('我在黄浦区，推荐酒吧')">黄浦酒吧</span>
+                        <span class="tag" onclick="sendMessage('我在长宁区，附近有什么')">长宁探索</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="user-input" placeholder="输入你的位置和问题..." onkeypress="handleKeyPress(event)">
+                        <button onclick="sendMessage()" class="send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 详情模态框 -->
+    <div id="place-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

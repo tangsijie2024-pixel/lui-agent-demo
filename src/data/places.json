@@ -1,0 +1,189 @@
+[
+  {
+    "id": "place_001",
+    "name": "Constellation Bar",
+    "category": "jazz bar",
+    "area": "静安",
+    "price_per_person": 280,
+    "vibes": ["jazz", "暗光", "安静", "复古"],
+    "best_for": ["独处", "小聚", "深夜", "解压"],
+    "opening_hours": "18:00-02:00",
+    "insider_tip": "周五有现场爵士乐队，吧台位不需要预订，但二楼靠窗的位子建议提前一小时到"
+  },
+  {
+    "id": "place_002",
+    "name": "拾壹里精酿",
+    "category": "精酿酒吧",
+    "area": "徐汇",
+    "price_per_person": 180,
+    "vibes": ["精酿", "低调", "文艺"],
+    "best_for": ["独处", "小聚", "下班放松"],
+    "opening_hours": "15:00-00:00",
+    "insider_tip": "周三换桶日，有新的季节限定款，直接问吧台当天推荐"
+  },
+  {
+    "id": "place_003",
+    "name": "Seesaw Coffee 静安寺",
+    "category": "独立咖啡",
+    "area": "静安",
+    "price_per_person": 65,
+    "vibes": ["独立咖啡", "工业风", "安静"],
+    "best_for": ["独处", "工作", "下午"],
+    "opening_hours": "08:00-22:00",
+    "insider_tip": "下午三点后基本有位，耶加雪菲手冲是常驻款，每季会换产区"
+  },
+  {
+    "id": "place_004",
+    "name": "The Rooster",
+    "category": "精酿酒吧",
+    "area": "静安",
+    "price_per_person": 220,
+    "vibes": ["精酿", "热闹", "街头"],
+    "best_for": ["小聚", "社交", "夜晚"],
+    "opening_hours": "17:00-01:00",
+    "insider_tip": "周末排队，建议工作日去。IPA种类是上海最全的之一"
+  },
+  {
+    "id": "place_005",
+    "name": "Volar",
+    "category": "jazz bar",
+    "area": "徐汇",
+    "price_per_person": 320,
+    "vibes": ["jazz", "高端", "暗光", "沉浸"],
+    "best_for": ["约会", "小聚", "深夜"],
+    "opening_hours": "20:00-03:00",
+    "insider_tip": "周六有爵士quartet演出，建议提前预约座位，进门买两杯消费"
+  },
+  {
+    "id": "place_006",
+    "name": "隐空间 Hidden",
+    "category": "清吧",
+    "area": "长宁",
+    "price_per_person": 160,
+    "vibes": ["低调", "安静", "独处", "阅读"],
+    "best_for": ["独处", "放空", "下班"],
+    "opening_hours": "14:00-23:00",
+    "insider_tip": "没有招牌，找到门就说明你是真爱好者。威士忌单桶选品很精准"
+  },
+  {
+    "id": "place_007",
+    "name": "Manner Coffee 武康路",
+    "category": "独立咖啡",
+    "area": "徐汇",
+    "price_per_person": 35,
+    "vibes": ["独立咖啡", "街头", "快"],
+    "best_for": ["路过", "外带", "早晨"],
+    "opening_hours": "07:30-21:00",
+    "insider_tip": "自带杯减五块，武康路这家不排队，比新天地店安静多了"
+  },
+  {
+    "id": "place_008",
+    "name": "Blue Note Shanghai",
+    "category": "jazz bar",
+    "area": "静安",
+    "price_per_person": 380,
+    "vibes": ["jazz", "现场", "专业", "暗光"],
+    "best_for": ["约会", "深夜", "沉浸"],
+    "opening_hours": "19:00-02:00",
+    "insider_tip": "纽约Blue Note在上海的唯一分店，每月排期发在公众号，大牌巡演几乎必来"
+  },
+  {
+    "id": "place_009",
+    "name": "Blackbird",
+    "category": "精酿酒吧",
+    "area": "静安",
+    "price_per_person": 200,
+    "vibes": ["精酿", "音乐", "文艺"],
+    "best_for": ["小聚", "夜晚", "社交"],
+    "opening_hours": "18:00-01:00",
+    "insider_tip": "旋转唱片机放的是真黑胶，认识吧台小哥会给推荐隐藏款"
+  },
+  {
+    "id": "place_010",
+    "name": "Café del Volcan",
+    "category": "独立咖啡",
+    "area": "徐汇",
+    "price_per_person": 75,
+    "vibes": ["独立咖啡", "文艺", "阅读", "安静"],
+    "best_for": ["独处", "工作", "下午"],
+    "opening_hours": "10:00-21:00",
+    "insider_tip": "老板是哥伦比亚人，豆子直接从庄园进，周末会做cupping，免费参与"
+  },
+  {
+    "id": "place_011",
+    "name": "The Cannery",
+    "category": "清吧",
+    "area": "黄浦",
+    "price_per_person": 250,
+    "vibes": ["工业风", "鸡尾酒", "精致"],
+    "best_for": ["约会", "小聚", "夜晚"],
+    "opening_hours": "17:00-01:00",
+    "insider_tip": "调酒师出身The NoMad，自创配方和泡菜cocktail是招牌，不在菜单上直接问"
+  },
+  {
+    "id": "place_012",
+    "name": "Bitter & Twisted",
+    "category": "鸡尾酒吧",
+    "area": "徐汇",
+    "price_per_person": 180,
+    "vibes": ["低调", "专业", "暗光"],
+    "best_for": ["独处", "约会", "深夜"],
+    "opening_hours": "19:00-02:00",
+    "insider_tip": "不接受大桌预订，保持低调氛围。点Bitters Old Fashioned是在测试你的品味"
+  },
+  {
+    "id": "place_013",
+    "name": "麻雀瓦舍",
+    "category": "民谣酒吧",
+    "area": "静安",
+    "price_per_person": 120,
+    "vibes": ["民谣", "文艺", "现场音乐"],
+    "best_for": ["小聚", "社交", "夜晚"],
+    "opening_hours": "20:00-01:00",
+    "insider_tip": "有时会有未宣传的小型专场，关注他们公众号比票务平台快三天"
+  },
+  {
+    "id": "place_014",
+    "name": "% Arabica 外滩",
+    "category": "独立咖啡",
+    "area": "黄浦",
+    "price_per_person": 55,
+    "vibes": ["极简", "网红", "精品"],
+    "best_for": ["打卡", "下午", "小聚"],
+    "opening_hours": "09:00-22:00",
+    "insider_tip": "工作日下午两点前人少，外滩景观位真的值，拿铁比门店浓一点"
+  },
+  {
+    "id": "place_015",
+    "name": "Wooden Box",
+    "category": "精酿酒吧",
+    "area": "杨浦",
+    "price_per_person": 150,
+    "vibes": ["精酿", "社区", "接地气"],
+    "best_for": ["独处", "小聚", "工作日放松"],
+    "opening_hours": "16:00-23:30",
+    "insider_tip": "杨浦宝藏，人少量大，周三有女生日折扣，老板娘是精酿行业出身"
+  },
+  {
+    "id": "place_016",
+    "name": "Brownstone",
+    "category": "jazz bar",
+    "area": "徐汇",
+    "price_per_person": 260,
+    "vibes": ["jazz", "暗光", "成熟", "低调"],
+    "best_for": ["独处", "约会", "深夜"],
+    "opening_hours": "19:00-02:00",
+    "insider_tip": "演出排期不密集，但来的都是真的在乎音乐的人，氛围比Blue Note更私密"
+  },
+  {
+    "id": "place_017",
+    "name": "REX Coffee",
+    "category": "独立咖啡",
+    "area": "静安",
+    "price_per_person": 45,
+    "vibes": ["独立咖啡", "社区", "日常"],
+    "best_for": ["独处", "工作", "早晨"],
+    "opening_hours": "08:00-20:00",
+    "insider_tip": "老板是个安静的人，店里WiFi密码从来不贴，想要可以问，音乐选品超好"
+  }
+]

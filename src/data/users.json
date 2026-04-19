@@ -1,0 +1,187 @@
+[
+  {
+    "userId": "user_001",
+    "identity": {
+      "name": "Sijie",
+      "city": "上海",
+      "age": 28
+    },
+    "lifestyle": {
+      "vibes": [
+        "jazz",
+        "精酿",
+        "独立咖啡",
+        "暗光",
+        "文艺"
+      ],
+      "avoid": [
+        "嘈杂",
+        "连锁店",
+        "人多",
+        "商业气息"
+      ],
+      "favorite_areas": [
+        "静安",
+        "徐汇",
+        "长宁"
+      ]
+    },
+    "consumption": {
+      "range_min": 200,
+      "range_max": 400,
+      "currency": "CNY",
+      "sensitive": false
+    },
+    "social": {
+      "type": "ambivert",
+      "usual_group_size": 2,
+      "solo_comfort": true
+    },
+    "schedule": {
+      "work_end": "19:30",
+      "free_days": [
+        "Sat",
+        "Sun"
+      ],
+      "night_owl": true
+    },
+    "feed": {
+      "recent_signals": [],
+      "last_visit": "",
+      "mood": "neutral",
+      "last_activity_time": null,
+      "last_push_time": null
+    },
+    "aspirations": {
+      "goals": [
+        "探索新地方",
+        "放松解压"
+      ],
+      "avoid_routine": true
+    }
+  },
+  {
+    "userId": "user_002",
+    "identity": {
+      "name": "Lin",
+      "city": "上海",
+      "age": 32
+    },
+    "lifestyle": {
+      "vibes": [
+        "精酿",
+        "清吧",
+        "户外",
+        "低调"
+      ],
+      "avoid": [
+        "嘈杂",
+        "人群",
+        "强行消费"
+      ],
+      "favorite_areas": [
+        "虹桥",
+        "静安",
+        "杨浦"
+      ]
+    },
+    "consumption": {
+      "range_min": 150,
+      "range_max": 300,
+      "currency": "CNY",
+      "sensitive": true
+    },
+    "social": {
+      "type": "introvert",
+      "usual_group_size": 1,
+      "solo_comfort": true
+    },
+    "schedule": {
+      "work_end": "18:00",
+      "free_days": [
+        "Sat",
+        "Sun"
+      ],
+      "night_owl": false
+    },
+    "feed": {
+      "recent_signals": [
+        "下班了",
+        "想喝一杯"
+      ],
+      "last_visit": "精酿酒吧",
+      "mood": "tired",
+      "last_activity_time": null,
+      "last_push_time": null
+    },
+    "aspirations": {
+      "goals": [
+        "安静放空",
+        "独处充电"
+      ],
+      "avoid_routine": false
+    }
+  },
+  {
+    "userId": "user_003",
+    "identity": {
+      "name": "Yumi",
+      "city": "上海",
+      "age": 25
+    },
+    "lifestyle": {
+      "vibes": [
+        "独立咖啡",
+        "艺术",
+        "小众",
+        "探索"
+      ],
+      "avoid": [
+        "星巴克",
+        "连锁",
+        "没有特色"
+      ],
+      "favorite_areas": [
+        "徐汇",
+        "黄浦",
+        "普陀"
+      ]
+    },
+    "consumption": {
+      "range_min": 80,
+      "range_max": 200,
+      "currency": "CNY",
+      "sensitive": true
+    },
+    "social": {
+      "type": "extrovert",
+      "usual_group_size": 3,
+      "solo_comfort": false
+    },
+    "schedule": {
+      "work_end": "18:30",
+      "free_days": [
+        "Sat",
+        "Sun"
+      ],
+      "night_owl": false
+    },
+    "feed": {
+      "recent_signals": [
+        "周末去哪玩",
+        "想找个好看的咖啡馆拍照"
+      ],
+      "last_visit": "网红咖啡馆",
+      "mood": "excited",
+      "last_activity_time": null,
+      "last_push_time": null
+    },
+    "aspirations": {
+      "goals": [
+        "发现新地方",
+        "社交打卡"
+      ],
+      "avoid_routine": true
+    }
+  }
+]

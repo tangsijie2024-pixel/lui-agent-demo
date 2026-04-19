@@ -1,0 +1,33 @@
+{
+  "name": "lui-agent-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "多轮对话 LUI Agent 产品 Demo，支持 MCP 地图协议与 iMessage 入口的被动响应与主动推送",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev:server": "ts-node-dev --require dotenv/config --respawn --transpile-only src/index.ts",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "concurrently -n server,client -c bgBlue,bgGreen \"npm run dev:server\" \"npm run dev:client\"",
+    "test": "jest",
+    "test:golden": "ts-node --require dotenv/config -P tsconfig.test.json tests/golden/runner.ts",
+    "eval": "ts-node --require dotenv/config -P tsconfig.test.json tests/eval/scorer.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "https-proxy-agent": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.14.2",
+    "concurrently": "^9.2.1",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}

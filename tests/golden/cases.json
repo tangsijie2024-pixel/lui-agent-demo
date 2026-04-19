@@ -1,0 +1,240 @@
+[
+  {
+    "id": "g01",
+    "userId": "user_001",
+    "query": "今晚想找个安静的地方喝一杯",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["安静", "jazz", "暗光"]
+    }
+  },
+  {
+    "id": "g02",
+    "userId": "user_001",
+    "query": "下班了，不想回家，随便去哪喝点什么",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["放松", "下班", "独处"]
+    }
+  },
+  {
+    "id": "g03",
+    "userId": "user_001",
+    "query": "想找个有爵士乐的地方",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["jazz", "爵士"]
+    }
+  },
+  {
+    "id": "g04",
+    "userId": "user_002",
+    "query": "一个人，想找个安静的地方坐坐",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["安静", "独处"]
+    }
+  },
+  {
+    "id": "g05",
+    "userId": "user_002",
+    "query": "今晚朋友聚会，大概三四个人",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["聚会", "小聚", "社交"]
+    }
+  },
+  {
+    "id": "g06",
+    "userId": "user_001",
+    "query": "心情不太好，想一个人出去走走喝点酒",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["独处", "解压", "放松"]
+    }
+  },
+  {
+    "id": "g07",
+    "userId": "user_003",
+    "query": "想找个能聊天的地方，不要太吵",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["安静", "聊天"]
+    }
+  },
+  {
+    "id": "g08",
+    "userId": "user_001",
+    "query": "周六下午，一个人喝咖啡",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["咖啡", "独处", "下午"]
+    }
+  },
+  {
+    "id": "g09",
+    "userId": "user_002",
+    "query": "想找个 150 块以内的精酿酒吧",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["精酿"]
+    }
+  },
+  {
+    "id": "g10",
+    "userId": "user_001",
+    "query": "已经十一点了，哪里还开着",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["深夜", "晚"]
+    }
+  },
+  {
+    "id": "g11",
+    "userId": "user_001",
+    "query": "就去第一个吧",
+    "history": [
+      { "role": "user", "content": "今晚想找个安静的地方喝一杯" },
+      { "role": "assistant", "content": "推荐了：Constellation Bar（静安，人均280）、Volar（徐汇，人均320）" }
+    ],
+    "expect": {
+      "state": "decided",
+      "card_count": 0
+    }
+  },
+  {
+    "id": "g12",
+    "userId": "user_001",
+    "query": "它几点关门",
+    "history": [
+      { "role": "user", "content": "今晚想找个安静的地方喝一杯" },
+      { "role": "assistant", "content": "推荐了：Constellation Bar（静安，人均280）、Volar（徐汇，人均320）" },
+      { "role": "user", "content": "就去 Constellation Bar 吧" },
+      { "role": "assistant", "content": "好的，Constellation Bar！记得提前到占个吧台位" }
+    ],
+    "expect": {
+      "state": "following_up",
+      "card_count": 0
+    }
+  },
+  {
+    "id": "g13",
+    "userId": "user_001",
+    "query": "附近有停车位吗",
+    "history": [
+      { "role": "user", "content": "有没有 jazz 吧推荐" },
+      { "role": "assistant", "content": "推荐了：Volar（徐汇，人均320）" },
+      { "role": "user", "content": "好，就去 Volar" },
+      { "role": "assistant", "content": "Volar 不错，周六有爵士演出" }
+    ],
+    "expect": {
+      "state": "following_up",
+      "card_count": 0
+    }
+  },
+  {
+    "id": "g14",
+    "userId": "user_001",
+    "query": "算了，明天想找个早午餐推荐",
+    "history": [
+      { "role": "user", "content": "今晚想喝一杯" },
+      { "role": "assistant", "content": "推荐了：Constellation Bar（静安，人均280）" }
+    ],
+    "expect": {
+      "state": "new_query",
+      "card_count": 2
+    }
+  },
+  {
+    "id": "g15",
+    "userId": "user_001",
+    "query": "不想喝酒了，想找个可以工作的咖啡馆",
+    "history": [
+      { "role": "user", "content": "今晚想喝酒" },
+      { "role": "assistant", "content": "推荐了：拾壹里精酿（徐汇，人均180）" }
+    ],
+    "expect": {
+      "state": "new_query",
+      "card_count": 2
+    }
+  },
+  {
+    "id": "g16",
+    "userId": "user_003",
+    "query": "有没有不需要提前订位的地方",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": []
+    }
+  },
+  {
+    "id": "g17",
+    "userId": "user_002",
+    "query": "想找个低调一点的，别太商业",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": ["低调", "安静"]
+    }
+  },
+  {
+    "id": "g18",
+    "userId": "user_001",
+    "query": "好久没出门了，随便推荐个今晚去的地方",
+    "history": [],
+    "expect": {
+      "state": "exploring",
+      "card_count": 2,
+      "vibe_keywords": []
+    }
+  },
+  {
+    "id": "g19",
+    "userId": "user_001",
+    "query": "好，就这个了",
+    "history": [
+      { "role": "user", "content": "想找个精酿酒吧" },
+      { "role": "assistant", "content": "推荐了：拾壹里精酿（徐汇，人均180）、The Rooster（静安，人均220）" }
+    ],
+    "expect": {
+      "state": "decided",
+      "card_count": 0
+    }
+  },
+  {
+    "id": "g20",
+    "userId": "user_001",
+    "query": "两个都不错，先去近一点的",
+    "history": [
+      { "role": "user", "content": "想找个安静的酒吧" },
+      { "role": "assistant", "content": "推荐了：Constellation Bar（静安，人均280）、隐空间 Hidden（长宁，人均160）" }
+    ],
+    "expect": {
+      "state": "decided",
+      "card_count": 0
+    }
+  }
+]
