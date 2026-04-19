@@ -5,7 +5,7 @@
   "description": "多轮对话 LUI Agent 产品 Demo，支持 MCP 地图协议与 iMessage 入口的被动响应与主动推送",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build --prefix client && tsc",
     "start": "node dist/index.js",
     "dev:server": "ts-node-dev --require dotenv/config --respawn --transpile-only src/index.ts",
     "dev:client": "npm run dev --prefix client",

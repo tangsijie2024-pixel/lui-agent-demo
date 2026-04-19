@@ -1,5 +1,6 @@
 import express from 'express';
 import { json } from 'express';
+import path from 'path';
 import { passiveResponse } from './agent/passiveResponse';
 import { proactiveResponse } from './agent/proactiveResponse';
 import { updateFeed } from './skills/memory/updateMemory';
@@ -9,7 +10,10 @@ const app = express();
 const port = process.env.PORT ? Number(process.env.PORT) : 4000;
 
 app.use(json());
-app.use(express.static('public'));
+
+// Serve built frontend in production
+const clientDist = path.join(__dirname, '../client/dist');
+app.use(express.static(clientDist));
 
 app.get('/api', (_req, res) => {
   res.json({
@@ -69,6 +73,11 @@ app.post('/mark-read/:userId', (req, res) => {
     console.error('[/mark-read error]', message);
     res.status(500).json({ error: message });
   }
+});
+
+// SPA fallback — must be after all API routes
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(clientDist, 'index.html'));
 });
 
 app.listen(port, () => {

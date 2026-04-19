@@ -8,6 +8,8 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/chat': 'http://localhost:4000',
+      '/proactive': 'http://localhost:4000',
+      '/mark-read': 'http://localhost:4000',
     },
   },
 })

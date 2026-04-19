@@ -107,7 +107,8 @@ export default function App() {
         setHistory(prev => [...prev, userEntry, { role: 'assistant', content: data.message }])
       } else {
         // Recommendation flow (exploring / new_query)
-        const { cards } = data
+        type ExploreData = Extract<ChatResponse, { cards: RecommendationCard[] }>
+        const { cards } = data as ExploreData
 
         await addAiBubble({ id: uid(), role: 'ai', kind: 'text', text: cards[0]?.vibe_text ?? '懂你 😌' })
 
